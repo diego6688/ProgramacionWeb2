@@ -1,0 +1,231 @@
+
+
+*{margin: 0; padding: 0;}
+body{
+	background: #fffffa;
+}
+
+.conten_logo{
+	width: 100%;
+	height: 100%;
+}
+.conten_logo h1 {
+	font-family: 'Orbitron', sans-serif;
+}
+.contenedor_slider{
+	position: relative;
+	width: auto;
+	height: 300px;
+	margin: auto;
+	background: blue;
+	overflow: hidden;
+	border-radius: 30px;
+	border-style: outset;border-width:20px; border-color:#A52A2A;
+
+}
+
+.contenedor_slider .slider{
+	position: relative;
+	width: 600%;
+	height: 100%;
+	display: flex;
+	animation: moverse 20s infinite linear;
+
+}
+
+.contenedor_slider .slider li {
+	position: relative;
+	width: 100%;
+	list-style: none;
+}
+.contenedor_slider .slider li img {
+	position: relative;
+	width: 100%;
+	height:100%;
+}
+
+@keyframes moverse{
+	0%,10%{
+		margin-left: 0px;
+	}
+	15%,25%{
+		margin-left: -100%;
+	}
+	30%, 40%{
+		margin-left: -200%;
+	}
+	45%,55%{
+		margin-left: -300%;
+	}
+	60%,75%{
+		margin-left: -400%;
+	}
+	80%,100%{
+		margin-left: -500%;
+	}
+
+}
+
+.conten_logo{
+
+	width: 100%;
+}
+.menu .menuCSS3{
+
+	margin:  0 auto;
+	padding: 0;
+}
+
+a {
+  font: 100% sans-serif;
+}
+.menuCSS3 ul {
+		display: flex;
+		padding: 0;
+		margin: 0 auto;
+		list-style: none;
+	}
+	.menuCSS3 a {
+		width: auto;
+		display: block;
+		padding: 2em;
+		background-color: #F9B53C;
+		text-decoration: none;
+		color: #191C26;
+	}
+	.menuCSS3 a:hover {
+		background-color: green;
+	}
+	.menuCSS3 ul li ul {
+		display: none;
+	}
+	.menuCSS3 ul li a:hover + ul, .menuCSS3 ul li ul:hover {
+		display: flex;
+	}
+.wrapper{
+	margin: 0 auto;
+	top: 20px;
+	height: auto;
+	width: 1200px;
+}
+.wrappera, .wrapperb, .wrapperc, .wrapperd, .wrappere, .wrapperf, .wrapperg, .wrapperh, .wrapperj {
+	margin: 0 auto;
+	height: auto;
+	width: 1200px;
+}
+.wrapper1{
+	margin: 0 auto;
+	top: 20px;
+	height: auto;
+	width: 1200px;
+}
+.wrapper img {
+	position: relative;
+	float: right;
+	width: 550px;
+	height: 450px;
+	border-style: solid;border-width:20px; border-color: #fffffa;
+}
+
+.wrapper1 img {
+	position: relative;
+	float: left;
+	width: 600px;
+	height: 350px;
+	border-style: solid;border-width:20px; border-color: #fffffa;
+}
+.wrapperh img {
+	position: relative;
+	float: right;
+	width: 600px;
+	height: 350px;
+	border-style: solid;border-width:20px; border-color: #fffffa;
+}
+
+.wrapperj img {
+	position: relative;
+	float: right;
+	width: 650px;
+	height: 320px;
+	border-style: solid;border-width:20px; border-color: #fffffa;
+}
+
+.wrapperc img, .wrappere img, .wrapperg img {
+	
+	float: left;
+	width: 400px;
+	height: 250px;
+	border-style: solid;border-width:20px; border-color: #fffffa;
+}
+.wrapperb img, .wrapperd img, .wrapperf img {
+	
+	float: right;
+	width: 400px;
+	height: 250px;
+	border-style: solid;border-width:20px; border-color: #fffffa;
+}
+.wrapper .introduccion {
+	text-align: justify;
+
+}
+p {
+  font: 120% sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+.act1 iframe {
+	margin: 0 auto;
+	top: 20px;
+	bottom: 20px;
+}
+
+.Autores h1{
+	position: relative;
+	top: 50px;
+}
+
+
+footer {
+  background: #000;
+  color: #fff;
+  height: auto; }
+
+.Contador-Visitas{
+	
+	float: right;
+}
+  .footer-lect4 {
+  clear: both; }
+
+i {
+  font-size: 2rem; }
+
+.row {
+  padding: 15px;
+  margin: auto; }
+
+.titfooter {
+	top: 20px;
+	bottom: 100px;
+  font-weight: bold; 
+}
+
+  .redessociales{
+
+  	margin:10px auto 20px;
+  	width: 100%;
+ text-align:center;
+ }
+ .redessociales .fac, .redessociales .twi, .redessociales .fli, .redessociales .you,.redessociales .ins{
+ 	width: auto;
+ overflow:hidden;
+ zoom: 1;
+ *display: inline;
+ display: inline-block;
+ vertical-align: top;
+}
+.redes .botgoo {
+ width:60px;
+}
